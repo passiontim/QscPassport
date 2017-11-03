@@ -13,8 +13,6 @@
 #define kWriteLocalStorageUrl3        @"https://m.qsebao.com/blankforapp.html"
 
 #import "ViewController.h"
-//#import "QSCLoginConfigure.h"
-#import <PassPortSDK/PassPortSDK.h>
 
 
 
@@ -26,61 +24,18 @@
     // 147 8804 4455
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.title = @"测试登录模块";
-    
-    [[QSCLoginModuleManager sharedQSCLoginModuleManager] showTheLoginVCWithQSCAppType:QSCAppTypeQSC isShowThird:YES loginDoneBlock:^{
-        
-        NSLog(@"哈哈测试登录模块");
-    }];
-    
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    btn.frame = CGRectMake(100, 100, 100, 100);
-    btn.backgroundColor = [UIColor redColor];
-    [btn addTarget:self action:@selector(logoutclick) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:btn];
-    
-    
-    CGRect barFrame = [[UIApplication sharedApplication] statusBarFrame];
-    CGRect viewFrame = [UIScreen mainScreen].bounds;
-    
-    NSLog(@"%@ -- %@",NSStringFromCGRect(barFrame),NSStringFromCGRect(viewFrame));
-    UIButton *btn2 = [UIButton buttonWithType:UIButtonTypeCustom];
-    btn2.frame = CGRectMake(100, 150, 100, 100);
-    btn2.backgroundColor = [UIColor redColor];
-    [btn2 addTarget:self action:@selector(logoutclick2) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:btn2];
-    
-    
-    
+
     
     
 }
 - (void)logoutclick2 {
     
-    [[QSCAccessTokenManager sharedQSCAccessTokenManager] clearTheAccessTokenData];
-    [[QSCLoginModuleManager sharedQSCLoginModuleManager] showTheLoginVCWithQSCAppType:3 isShowThird:YES loginDoneBlock:^{
-        
-        NSLog(@"哈哈测试登录模块");
-    }];
-    
+
     
     
 }
     
-- (void)logoutclick {
-    
-    //    [[QSCAccessTokenManager sharedQSCAccessTokenManager] accessTokenLoginOut];
-    
-    //    [[QSCAccessTokenManager sharedQSCAccessTokenManager] refreshTheAccessTokenWithFailureBlock:nil sucessBlock:nil];
-    
-    
-    
-    [[QSCAccessTokenManager sharedQSCAccessTokenManager] refreshTheAccessTokenWithFailureBlock:nil sucessBlock:^{
-        
-        
-        
-    }];
+
     
     
     
@@ -105,7 +60,7 @@
     //    });
     //
     
-}
+
     
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
