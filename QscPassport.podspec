@@ -13,7 +13,7 @@ DESC
 s.homepage     = "https://github.com/sunlijun/QscPassport"
 
 # LJ 默认MIT
-s.license  = { :type => "MIT"}
+s.license  ='MIT'
 
 # LJ 所有者权限
 s.author             = { "sunlijun" => "15810755796@163.com" }
@@ -22,15 +22,15 @@ s.author             = { "sunlijun" => "15810755796@163.com" }
 s.platform     = :ios, "8.0"
 
 # 源代码GIT目录 use https
-s.source       = { :git => "https://github.com/sunlijun/QscPassport.git", :tag => "1.0.1" }
+s.source       = { :git => "https://github.com/sunlijun/QscPassport.git", :tag => s.version }
 
 # LJ 配置源文件  passport / *  所有文件 Exclude 排除文件
-s.source_files  = "QscPassport", "QscPassport/Passport/PassPortSDK.h"
+#s.source_files  = "QscPassport", "QscPassport/*"
+s.source_files = 'QscPassport/**/*.{h,m}','Pods/**/*.{h,m}'
 
 #  LJ 依赖库
 s.vendored_frameworks = 'PassPortSDK.framework'
-#s.frameworks = "SystemConfiguration", "CoreGraphics","CoreTelephony"
-#s.libraries = "iconv","stdc++","z"
+
 
 # LJ 自动内存机制
 s.requires_arc = true
@@ -47,3 +47,4 @@ s.dependency  "ShareSDK3/ShareSDKPlatforms/WeChat"
 s.dependency  "Masonry", "~> 0.6.2"
 
 end
+
