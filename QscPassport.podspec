@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 # LJ 源码说明
 s.name         = "QscPassport"
-s.version      = "1.0.0"
+s.version      = "1.0.1"
 s.summary      = "QscPassport for iOS"
 s.description  = <<-DESC
 It is a component for ios photo browser,written by Objective-C.
@@ -22,7 +22,7 @@ s.author             = { "sunlijun" => "15810755796@163.com" }
 s.platform     = :ios, "8.0"
 
 # 源代码GIT目录 use https
-s.source       = { :git => "https://github.com/sunlijun/QscPassport.git", :tag => "1.0.0" }
+s.source       = { :git => "https://github.com/sunlijun/QscPassport.git", :tag => "1.0.1" }
 
 # LJ 配置源文件  passport / *  所有文件 Exclude 排除文件
 s.source_files  = "QscPassport", "QscPassport/*"

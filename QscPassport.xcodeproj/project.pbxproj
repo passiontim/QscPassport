@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		AAD4CD1BAA7058314FB96783 /* Pods_QscPassport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB5ABD303BF31431B36E5B4 /* Pods_QscPassport.framework */; };
 		DED15FCD1FAC702900C277B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DED15FCC1FAC702900C277B8 /* AppDelegate.m */; };
-		DED15FD01FAC702900C277B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DED15FCF1FAC702900C277B8 /* ViewController.m */; };
 		DED15FD31FAC702900C277B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED15FD11FAC702900C277B8 /* Main.storyboard */; };
 		DED15FD51FAC702900C277B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED15FD41FAC702900C277B8 /* Assets.xcassets */; };
 		DED15FD81FAC702900C277B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED15FD61FAC702900C277B8 /* LaunchScreen.storyboard */; };
 		DED15FDB1FAC702900C277B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DED15FDA1FAC702900C277B8 /* main.m */; };
 		DED15FE81FAC70E500C277B8 /* PassPortSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED15FE61FAC70E500C277B8 /* PassPortSDK.framework */; };
 		DED15FEB1FAC73C500C277B8 /* resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DED15FEA1FAC73C500C277B8 /* resources.bundle */; };
+		DED15FEF1FAC7AE600C277B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DED15FEE1FAC7AE600C277B8 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,6 @@
 		DED15FC81FAC702900C277B8 /* QscPassport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QscPassport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED15FCB1FAC702900C277B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DED15FCC1FAC702900C277B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DED15FCE1FAC702900C277B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DED15FCF1FAC702900C277B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DED15FD21FAC702900C277B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DED15FD41FAC702900C277B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DED15FD71FAC702900C277B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -33,6 +31,8 @@
 		DED15FDA1FAC702900C277B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DED15FE61FAC70E500C277B8 /* PassPortSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PassPortSDK.framework; sourceTree = "<group>"; };
 		DED15FEA1FAC73C500C277B8 /* resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resources.bundle; sourceTree = "<group>"; };
+		DED15FED1FAC7AE600C277B8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DED15FEE1FAC7AE600C277B8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F3479F60A56B8F527759D3A4 /* Pods-QscPassport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QscPassport.release.xcconfig"; path = "Pods/Target Support Files/Pods-QscPassport/Pods-QscPassport.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,11 +87,10 @@
 		DED15FCA1FAC702900C277B8 /* QscPassport */ = {
 			isa = PBXGroup;
 			children = (
+				DED15FEC1FAC7AE600C277B8 /* demo */,
 				DED15FE51FAC70E500C277B8 /* Passport */,
 				DED15FCB1FAC702900C277B8 /* AppDelegate.h */,
 				DED15FCC1FAC702900C277B8 /* AppDelegate.m */,
-				DED15FCE1FAC702900C277B8 /* ViewController.h */,
-				DED15FCF1FAC702900C277B8 /* ViewController.m */,
 				DED15FD11FAC702900C277B8 /* Main.storyboard */,
 				DED15FD41FAC702900C277B8 /* Assets.xcassets */,
 				DED15FD61FAC702900C277B8 /* LaunchScreen.storyboard */,
@@ -108,6 +107,15 @@
 				DED15FE61FAC70E500C277B8 /* PassPortSDK.framework */,
 			);
 			path = Passport;
+			sourceTree = SOURCE_ROOT;
+		};
+		DED15FEC1FAC7AE600C277B8 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				DED15FED1FAC7AE600C277B8 /* ViewController.h */,
+				DED15FEE1FAC7AE600C277B8 /* ViewController.m */,
+			);
+			path = demo;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -233,8 +241,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DED15FD01FAC702900C277B8 /* ViewController.m in Sources */,
 				DED15FDB1FAC702900C277B8 /* main.m in Sources */,
+				DED15FEF1FAC7AE600C277B8 /* ViewController.m in Sources */,
 				DED15FCD1FAC702900C277B8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
