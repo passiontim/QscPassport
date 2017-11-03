@@ -25,7 +25,7 @@ s.platform     = :ios, "8.0"
 s.source       = { :git => "https://github.com/sunlijun/QscPassport.git", :tag => "1.0.1" }
 
 # LJ 配置源文件  passport / *  所有文件 Exclude 排除文件
-s.source_files  = "QscPassport", "QscPassport/*"
+s.source_files  = "QscPassport", "QscPassport/Passport/PassPortSDK.h"
 
 #  LJ 依赖库
 s.vendored_frameworks = 'PassPortSDK.framework'
