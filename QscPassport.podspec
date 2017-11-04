@@ -45,15 +45,15 @@ s.source       = { :git => "https://github.com/sunlijun/QscPassport.git", :tag =
 s.requires_arc = true
 
 # LJ依赖三方库 案例 s.dependency "JSONKit", "~> 1.4"
-s.dependency  "AFNetworking","3.1.0"
-s.dependency  "SDWebImage","~> 3.7.3"
-s.dependency  "IQKeyboardManager" ,"~> 5.0.4"  
-s.dependency  "ShareSDK3", "~> 3.6.3"
-s.dependency  "MOBFoundation", "~> 2.2.19"
-s.dependency  "ShareSDK3/ShareSDKPlatforms/SinaWeibo", "~> 3.6.3"
-s.dependency  "ShareSDK3/ShareSDKPlatforms/QQ", "~> 3.6.3"
-s.dependency  "ShareSDK3/ShareSDKPlatforms/WeChat", "~> 3.6.3"
-s.dependency  "Masonry", "~> 0.6.2"
+# s.dependency  "AFNetworking","3.1.0"
+# s.dependency  "SDWebImage","~> 3.7.3"
+# s.dependency  "IQKeyboardManager" ,"~> 5.0.4"  
+# s.dependency  "ShareSDK3", "~> 3.6.3"
+# s.dependency  "MOBFoundation", "~> 2.2.19"
+# s.dependency  "ShareSDK3/ShareSDKPlatforms/SinaWeibo", "~> 3.6.3"
+# s.dependency  "ShareSDK3/ShareSDKPlatforms/QQ", "~> 3.6.3"
+# s.dependency  "ShareSDK3/ShareSDKPlatforms/WeChat", "~> 3.6.3"
+# s.dependency  "Masonry", "~> 0.6.2"
 
 end
 

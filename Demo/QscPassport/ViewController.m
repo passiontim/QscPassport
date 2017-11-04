@@ -75,11 +75,11 @@
     
     
     
-    [[QSCAccessTokenManager sharedQSCAccessTokenManager] refreshTheAccessTokenWithFailureBlock:nil sucessBlock:^{
-        
+//    [[QSCAccessTokenManager sharedQSCAccessTokenManager] refreshTheAccessTokenWithFailureBlock:nil sucessBlock:^{
+    
 
         
-    }];
+//    }];
     
     
     

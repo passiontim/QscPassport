@@ -13,18 +13,18 @@
 /*
  *  时间戳对应的NSDate
  */
--(NSDate *)dateWithGivenTimestamp;
+-(NSDate *)date;
 
-- (NSInteger)getAgeWithGivenCardNum:(NSString *)idCardNum;
+- (NSInteger)getAgeWithCardNum:(NSString *)idCardNum;
 
-- (NSInteger)ageWithGivenDateOfBirth:(NSDate *)date;
+- (NSInteger)ageWithDateOfBirth:(NSDate *)date;
 
--  (int)stringConvertToGivenInt:(NSString*)strtemp;
+-  (int)stringConvertToInt:(NSString*)strtemp;
 
-//+ (NSString *)md5HexDigest:(NSString*)input;
++ (NSString *)md5HexDigest:(NSString*)input;
 
 #pragma mark --- 根据身份证号码来获取年龄
-- (NSTimeInterval)ageForGivenUserCardNum:(NSString *)idCardNum;
+- (NSTimeInterval)ageForUserCardNum:(NSString *)idCardNum;
 
 //字典转json
 -(NSString *)convertToJsonData:(NSDictionary *)dict;

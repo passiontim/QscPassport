@@ -28,7 +28,7 @@
 /*
  *  是否是今年
  */
-//@property (nonatomic,assign,readonly) BOOL isThisYear;
+@property (nonatomic,assign,readonly) BOOL isThisYear;
 
 
 
@@ -36,7 +36,7 @@
 /*
  *  是否是今天
  */
-//@property (nonatomic,assign,readonly) BOOL isToday;
+@property (nonatomic,assign,readonly) BOOL isToday;
 
 
 
@@ -44,7 +44,7 @@
 /*
  *  是否是昨天
  */
-//@property (nonatomic,assign,readonly) BOOL isYesToday;
+@property (nonatomic,assign,readonly) BOOL isYesToday;
 
 
 
@@ -58,13 +58,13 @@
  *
  *  @return 时间成分对象
  */
-//+(NSDateComponents *)dateComponents:(NSCalendarUnit)unit fromDate:(NSDate *)fromDate toDate:(NSDate *)toDate;
++(NSDateComponents *)dateComponents:(NSCalendarUnit)unit fromDate:(NSDate *)fromDate toDate:(NSDate *)toDate;
 
-//+(BOOL )isValidTime:(NSString *)timestamps withSeconds:(NSInteger)seconds;
++(BOOL )isValidTime:(NSString *)timestamps withSeconds:(NSInteger)seconds;
 
-//+ (NSString *)changeNumsTimeHour:(NSString *)time;
-//+ (NSString *)changeNumsTimeForYMD:(NSString *)time;
-//+ (NSDate *)changeNumsTimeForYMD_ss:(NSString *)time;
++ (NSString *)changeNumsTimeHour:(NSString *)time;
++ (NSString *)changeNumsTimeForYMD:(NSString *)time;
++ (NSDate *)changeNumsTimeForYMD_ss:(NSString *)time;
 
 
 @end

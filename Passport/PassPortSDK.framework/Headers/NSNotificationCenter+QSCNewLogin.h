@@ -32,8 +32,8 @@
 - (void)onObserQQOauthSuccess:(void (^)(NSString *json))block;
 
 //键盘自定义退下按钮点击
-- (void)customDoneClick;
-- (void)onObserCustomDoneClick:(void (^)())block;
+- (void)doneClick;
+- (void)onObserDoneClick:(void (^)())block;
 
 //刷新accesstoken是时refreshAccesstoken出现异常
 - (void)bigRefreshAccesstokenIsError;

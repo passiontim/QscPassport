@@ -10,10 +10,10 @@
 
 @interface UIImage (Expand)
 
-//根据给定色值色值返回图片
-+ (UIImage *)createImageWithGivenColor:(UIColor *)color;
+//根据色值返回图片
++ (UIImage *)createImageWithColor:(UIColor *)color;
 
 //拉伸图片
-+ (UIImage *)resizedWithGivenImage:(NSString *)name;
++ (UIImage *)resizedImage:(NSString *)name;
 
 @end

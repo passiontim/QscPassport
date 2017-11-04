@@ -53,7 +53,7 @@ singleton_interface(QSCAccessTokenManager)
 
 
 //刷新accessToken
-- (void)refreshTheAccessTokenWithFailureBlock:(void (^)())finshBlock sucessBlock:(void (^)())sucessBlock;
+- (void)refreshTheAccessToken:(void (^)())finshBlock;
 
 
 //accToken登出 (用户退出账户时调用)
