@@ -6,7 +6,7 @@ s.name         = "QscPassport"
 s.version      = "1.0.3"
 s.summary      = "QscPassport for iOS"
 s.description  = <<-DESC
-Qsc Passport.
+QscPassport  轻松筹平台OAuth iOS SDK使用说明.
 DESC
 
 # LJ 默认主页链接
@@ -34,8 +34,8 @@ s.source       = { :git => "https://github.com/sunlijun/QscPassport.git", :tag =
 #s.source_files = 'QscPassport/**/*.{h,m}','Pods/**/*.{h,m}'
 #s.source_files = 'Passport/*'
 # s.source_files  = 'Demo/*.{h,m}'
-  s.vendored_frameworks    = 'passport/QscPassport.framework'
-  s.resource               = 'passport/resources.bundle'
+  s.vendored_frameworks    = 'Passport/PassPortSDK.framework'
+  s.resource               = 'Passport/resources.bundle'
 
 #  LJ 依赖库
 #s.vendored_frameworks = 'PassPortSDK.framework'

@@ -2,8 +2,8 @@
 //  AppDelegate.h
 //  QscPassport
 //
-//  Created by sunlijun on 2017/11/3.
-//  Copyright © 2017年 qschou. All rights reserved.
+//  Created by bluehedgehog on 2017/11/5.
+//  Copyright © 2017年 bluehedgehog. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
