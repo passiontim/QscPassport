@@ -202,7 +202,7 @@
 				TargetAttributes = {
 					65974A411FAE2326009C7D11 = {
 						CreatedOnToolsVersion = 9.0.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					65974A591FAE2326009C7D11 = {
 						CreatedOnToolsVersion = 9.0.1;
@@ -434,13 +434,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = J7MGGPEJNJ;
 				INFOPLIST_FILE = QscPassport/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.qschou.QscPassport;
+				PRODUCT_BUNDLE_IDENTIFIER = qingsongchou.QscPassport;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE = "458adba9-7b97-4db7-97f5-a5f8b7443a02";
+				PROVISIONING_PROFILE_SPECIFIER = qsc_dev_QscPassport_1103;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -448,13 +451,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = J7MGGPEJNJ;
 				INFOPLIST_FILE = QscPassport/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.qschou.QscPassport;
+				PRODUCT_BUNDLE_IDENTIFIER = qingsongchou.QscPassport;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE = "856a5cef-3756-4c2a-8205-7839a49a65ed";
+				PROVISIONING_PROFILE_SPECIFIER = qsc_dis_QscPassport_1103;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
