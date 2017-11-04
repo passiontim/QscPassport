@@ -3,10 +3,10 @@ Pod::Spec.new do |s|
 
 # LJ 源码说明
 s.name         = "QscPassport"
-s.version      = "1.0.2"
+s.version      = "1.0.3"
 s.summary      = "QscPassport for iOS"
 s.description  = <<-DESC
-It is a component for ios photo browser,written by Objective-C.
+Qsc Passport.
 DESC
 
 # LJ 默认主页链接
@@ -33,7 +33,9 @@ s.source       = { :git => "https://github.com/sunlijun/QscPassport.git", :tag =
 #s.source_files  = "QscPassport", "QscPassport/*"
 #s.source_files = 'QscPassport/**/*.{h,m}','Pods/**/*.{h,m}'
 #s.source_files = 'Passport/*'
-s.source_files  = 'Demo/*.{h,m}'
+# s.source_files  = 'Demo/*.{h,m}'
+  s.vendored_frameworks    = 'passport/QscPassport.framework'
+  s.resource               = 'passport/resources.bundle'
 
 #  LJ 依赖库
 #s.vendored_frameworks = 'PassPortSDK.framework'
@@ -43,7 +45,15 @@ s.source_files  = 'Demo/*.{h,m}'
 s.requires_arc = true
 
 # LJ依赖三方库 案例 s.dependency "JSONKit", "~> 1.4"
-
+s.dependency  "AFNetworking","3.1.0"
+s.dependency  "SDWebImage","~> 3.7.3"
+s.dependency  "IQKeyboardManager" ,"~> 5.0.4"  
+s.dependency  "ShareSDK3", "~> 3.6.3"
+s.dependency  "MOBFoundation", "~> 2.2.19"
+s.dependency  "ShareSDK3/ShareSDKPlatforms/SinaWeibo", "~> 3.6.3"
+s.dependency  "ShareSDK3/ShareSDKPlatforms/QQ", "~> 3.6.3"
+s.dependency  "ShareSDK3/ShareSDKPlatforms/WeChat", "~> 3.6.3"
+s.dependency  "Masonry", "~> 0.6.2"
 
 end
 
