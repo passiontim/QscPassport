@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 # LJ 源码说明
 s.name         = "QscPassport"
-s.version      = "1.0.1"
+s.version      = "1.0.2"
 s.summary      = "QscPassport for iOS"
 s.description  = <<-DESC
 It is a component for ios photo browser,written by Objective-C.
@@ -14,7 +14,11 @@ s.homepage     = "https://github.com/sunlijun/QscPassport"
 
 # LJ 默认MIT
 #s.license  ='MIT'
-s.license  ={ :type => "MIT", :file => "LICENSE" }
+s.license  ={ :type => "MIT", :text => <<-LICENSE
+© 2017 北京轻松筹网络科技有限公司
+LICENSE
+
+}
 
 # LJ 所有者权限
 s.author             = { "sunlijun" => "15810755796@163.com" }
