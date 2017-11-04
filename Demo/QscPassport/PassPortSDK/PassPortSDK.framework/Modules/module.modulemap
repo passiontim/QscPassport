@@ -1,0 +1,6 @@
+framework module PassPortSDK {
+  umbrella header "PassPortSDK.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,56 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - IQKeyboardManager (5.0.4)
+  - Masonry (0.6.4)
+  - MOBFoundation (2.2.19)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - ShareSDK3 (3.6.3):
+    - MOBFoundation
+    - ShareSDK3/ShareSDK (= 3.6.3)
+  - ShareSDK3/ShareSDK (3.6.3):
+    - MOBFoundation
+  - ShareSDK3/ShareSDKPlatforms/QQ (3.6.3):
+    - MOBFoundation
+  - ShareSDK3/ShareSDKPlatforms/SinaWeibo (3.6.3):
+    - MOBFoundation
+  - ShareSDK3/ShareSDKPlatforms/WeChat (3.6.3):
+    - MOBFoundation
+
+DEPENDENCIES:
+  - AFNetworking
+  - IQKeyboardManager
+  - Masonry (~> 0.6.2)
+  - MOBFoundation (~> 2.2.19)
+  - SDWebImage (~> 3.7.3)
+  - ShareSDK3 (~> 3.6.3)
+  - ShareSDK3/ShareSDKPlatforms/QQ
+  - ShareSDK3/ShareSDKPlatforms/SinaWeibo
+  - ShareSDK3/ShareSDKPlatforms/WeChat
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  IQKeyboardManager: 1df9c0f147af1681cfb2d9977bc30309d45a7e76
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MOBFoundation: e962b2aee79e2b8f626e2d30c2f23e9f13e5331e
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  ShareSDK3: d271520113160eb24b31cd642b45b38fcd592d93
+
+PODFILE CHECKSUM: b27904fa51c91373fab20b3a3098fb37a944b379
+
+COCOAPODS: 1.2.0
